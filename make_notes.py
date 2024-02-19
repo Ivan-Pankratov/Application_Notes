@@ -1,11 +1,10 @@
 import json
 import Note
-from make_file import write_file
+from make_file import *
 
 
 # Печать мануала
 def help_info():
-    path = 'manual.md'
     data = open('manual.md', 'r', encoding='utf-8')
     for line in data:
         print(line)
@@ -23,26 +22,25 @@ def add_note(f):
 
 #  Экспорт/Сохранение заметок
 def save(f):
-    if f== {}:
+    if (f == {}):
         print("Вы пытаетесь сохранить пустой файл, \n "
               "Попытка перезаписи файла остановлена,\n"
-              " т.к. это приведёт к потере данных.")
+              " т.к. это может привести к потере данных.")
     else:
-
         write_file(f)
-        print("Справочник заметок успешно сохранен в файле notes.json")
 
 
 # Изменение заметки
 def change_note(f):
     id = input("Введите id заметки для поиска: ")
-    if id in f:
+    if (id in f):
         print(f[id].to_string())
         dt = input("Введите параметр, который хотите поменять: ")
-        if (dt== "body")or (dt== "title") :
+        if ((dt == "body") or (dt == "title")):
             dt_value = input("Введите новое значение : ")
             Note.Note.change_note(f[id], dt, dt_value)
-        else:print("Ввод параметра не удался ")
+        else:
+            print("Ввод параметра не удался ")
     else:
         print("Нет заметки с таким id ")
 
@@ -58,11 +56,17 @@ def delete_note(f):
 
 
 # Загрузка из файла
-def load():
-    with open("note.json", "r", encoding="utf-8") as fh:
-        f = json.load(fh)
-    print("Заметки успешно загружены")
-    return f
+def load(f, note=Note):
+    fr = read_file()
+
+    print(type(fr))
+    to_note(fr, note)
+    if (note.Note.get_id() in f):
+        print("Заметка из файла уже есть в активном списке")
+    else:
+        f[note.Note.get_id()]= note
+        print("Заметка из хранилища загружена")
+
 
 
 # Печать
@@ -72,4 +76,17 @@ def print_info(f):
               "добавьте запись или загрузите список из хранилища")
     else:
         for k, w in f.items():
-            print(w.to_string())
+            print(Note.Note.to_string(w))
+
+# Преобразование строки из айла в заметку
+def to_note(string_file, note=Note):
+    try:
+        print(string_file)
+        sf = string_file.split(";")
+        note.id = sf[0]
+        note.title = sf[1]
+        note.body = sf[2]
+        return note
+    except:
+        print("Из файла прочитали что-то не то(")
+    return

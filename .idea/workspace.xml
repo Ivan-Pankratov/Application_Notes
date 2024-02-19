@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b21afa6e-a0fa-4f42-af34-c0c8cbe5e1bf" name="Changes" comment="make commands /add, /all, /change">
-      <change afterPath="$PROJECT_DIR$/manual.md" afterDir="false" />
+    <list default="true" id="b21afa6e-a0fa-4f42-af34-c0c8cbe5e1bf" name="Changes" comment="the file &quot;manual.txt&quot; has been changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/commands.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Note.py" beforeDir="false" afterPath="$PROJECT_DIR$/Note.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/make_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/make_notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_notes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manual.json" beforeDir="false" afterPath="$PROJECT_DIR$/manual.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manual.txt" beforeDir="false" afterPath="$PROJECT_DIR$/manual.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.json" beforeDir="false" afterPath="$PROJECT_DIR$/notes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manual.md" beforeDir="false" afterPath="$PROJECT_DIR$/manual.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +60,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.commands.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.make_notes.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.commands.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.make_file.executor": "Run",
+    "Python.make_notes.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Иван\PycharmProjects\Application_Notes" />
@@ -143,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708105410409</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="the file &quot;manual.txt&quot; has been changed">
+      <option name="closed" value="true" />
+      <created>1708335983829</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708335983829</updated>
+    </task>
+    <task id="LOCAL-00007" summary="the file &quot;manual.txt&quot; has been changed">
+      <option name="closed" value="true" />
+      <created>1708336007099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708336007099</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +175,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="new make_file" />
     <MESSAGE value="make commands /add, /all, /change" />
-    <option name="LAST_COMMIT_MESSAGE" value="make commands /add, /all, /change" />
+    <MESSAGE value="the file &quot;manual.md&quot; has been changed" />
+    <MESSAGE value="the file &quot;manual.txt&quot; has been changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="the file &quot;manual.txt&quot; has been changed" />
   </component>
 </project>

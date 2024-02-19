@@ -20,7 +20,7 @@ def run():
         elif command == "/save":  # Экспорт/Сохранение списка заметок
             make_notes.save(notes)
         elif command == "/load":  # Импорт/Загрузка списка заметок из хранилища
-            notes = make_notes.load()
+            make_notes.load(notes)
         elif command == "/delete":  # Удаление заметки из списка
             make_notes.delete_note(notes)
         else:
