@@ -20,9 +20,8 @@ def run():
         elif command == "/save":  # Экспорт/Сохранение списка заметок
             make_notes.save(notes)
         elif command == "/load":  # Импорт/Загрузка списка заметок из хранилища
-            note = make_notes.load(notes)
-
-        elif command == "/delete":  # Удаление контакта из списка
+            notes = make_notes.load()
+        elif command == "/delete":  # Удаление заметки из списка
             make_notes.delete_note(notes)
         else:
             print("Неопознанная команда. Просьба изучить мануал через /help")

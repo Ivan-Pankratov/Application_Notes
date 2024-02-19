@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b21afa6e-a0fa-4f42-af34-c0c8cbe5e1bf" name="Changes" comment="new make_file">
+    <list default="true" id="b21afa6e-a0fa-4f42-af34-c0c8cbe5e1bf" name="Changes" comment="make commands /add, /all, /change">
+      <change afterPath="$PROJECT_DIR$/manual.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/commands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note.py" beforeDir="false" afterPath="$PROJECT_DIR$/Note.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/make_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make_notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manual.json" beforeDir="false" afterPath="$PROJECT_DIR$/manual.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manual.txt" beforeDir="false" afterPath="$PROJECT_DIR$/manual.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.json" beforeDir="false" afterPath="$PROJECT_DIR$/notes.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +50,9 @@
         <option name="url" value="https://github.com/Ivan-Pankratov/Application_Notes.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -117,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708104123155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="make commands /add, /all, /change">
+      <option name="closed" value="true" />
+      <created>1708105325413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708105325413</updated>
+    </task>
+    <task id="LOCAL-00005" summary="make commands /add, /all, /change">
+      <option name="closed" value="true" />
+      <created>1708105410409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708105410409</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="new make_file" />
-    <option name="LAST_COMMIT_MESSAGE" value="new make_file" />
+    <MESSAGE value="make commands /add, /all, /change" />
+    <option name="LAST_COMMIT_MESSAGE" value="make commands /add, /all, /change" />
   </component>
 </project>

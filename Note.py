@@ -1,7 +1,9 @@
 from datetime import datetime
 import uuid
 
+
 class Note:
+
     # конструктор заметки
     def __init__(self, title, body):
         self.id = str(uuid.uuid1())[0:3]
@@ -10,21 +12,25 @@ class Note:
         self.date = str(datetime.now().strftime("%d.%m.%Y %H:%M"))
         print("Создана заметка. id: ", self.id)
 
-# преобразование заметки в строку
+    # преобразование заметки в строку для вывода в консоль
     def to_string(note):
-        str = ("id: " + note.id + ';'+ " title: " + note.title + ';'
+        str = ("id: " + note.id + ';' + " title: " + note.title + ';'
                + " body: " + note.body + ';' + " Date of change: " + note.date)
         return str
 
-# изменение поля заметки
+    #Преобразование заметки в строку для записи в файл
+    def to_write(self):
+        str = self.id + ';' + self.title + ';' + self.body + ';' + self.date
+        return str
+
+    # изменение поля заметки
     def change_note(note, item, item_value):
-        if (item == "body"):
+        if item == "body":
             note.body = item_value
-        elif (item == "title"):
+        elif item == "title":
             note.title = item_value
         note.date = str(datetime.now().strftime("%d.%m.%Y %H:%M"))
         print("Заметка id: " + note.id + " изменена")
-
 
 #    def __del__(self):
 #        print("Удалена заметка ", self.name)

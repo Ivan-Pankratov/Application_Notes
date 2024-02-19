@@ -1,22 +1,22 @@
 import json
 import Note
-
+from make_file import write_file
 
 
 # Печать мануала
 def help_info():
-    path = 'manual.json'
-    data = open('manual.json', 'r', encoding='utf-8')
+    path = 'manual.md'
+    data = open('manual.md', 'r', encoding='utf-8')
     for line in data:
         print(line)
     data.close()
+
 
 # Добавление заметки
 def add_note(f):
     title = input("Введите заголовок: ")
     body = input("Введите текст заметки: ")
     note = Note.Note(title, body)
-    str = note.to_string()
     f[note.id] = note
     print("Заметка успешно добавлена.")
 
@@ -28,8 +28,8 @@ def save(f):
               "Попытка перезаписи файла остановлена,\n"
               " т.к. это приведёт к потере данных.")
     else:
-        with open("notes.json", "w", encoding="utf-8") as fh:
-            fh.write(json.dumps(f, ensure_ascii=False))
+
+        write_file(f)
         print("Справочник заметок успешно сохранен в файле notes.json")
 
 
@@ -58,7 +58,7 @@ def delete_note(f):
 
 
 # Загрузка из файла
-def load(f):
+def load():
     with open("note.json", "r", encoding="utf-8") as fh:
         f = json.load(fh)
     print("Заметки успешно загружены")
