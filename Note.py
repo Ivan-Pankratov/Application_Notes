@@ -5,18 +5,18 @@ import uuid
 class Note:
 
     # конструктор заметки
-    def __init__(self, title, body):
-        self.id = str(uuid.uuid1())[0:3]
+    def __init__(self, i=str(uuid.uuid1())[0:3], title="text", body="text",
+                 date=str(datetime.now().strftime("%d.%m.%Y %H:%M"))):
+        self.id = i
         self.title = title
         self.body = body
-        self.date = str(datetime.now().strftime("%d.%m.%Y %H:%M"))
-        print("Создана заметка. id: ", self.id)
+        self.date = date
 
     # преобразование заметки в строку для вывода в консоль
     def to_string(self):
         if isinstance(self, Note):
             str_note = ("id: " + self.id + ';' + " title: " + self.title + ';'
-                        + " body: " + self.body + ';' + " Date of change: " + self.date)
+                        + " body: " + self.body + ';' + " date of change: " + self.date)
             return str_note
         print("Попытка преобразовать в строку объект отличный от Заметки")
         return
@@ -35,21 +35,14 @@ class Note:
         self.date = str(datetime.now().strftime("%d.%m.%Y %H:%M"))
         print("Заметка id: " + self.id + " изменена")
 
-    def set_id(self, id):
-        self.id = id
+    def set_id(self):
+        self.id = str(uuid.uuid1())[0:3]
 
     def get_id(self):
         return self.id
 
-    def set_title(self, title):
-        self.title = title
-
-    def set_body(self, body):
-        self.body= body
-
-    def set_date(self, date):
-        self.date= date
-
+    def get_date(self):
+        return self.date
 
 #    def __del__(self):
 #        print("Удалена заметка ", self.name)

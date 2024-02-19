@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b21afa6e-a0fa-4f42-af34-c0c8cbe5e1bf" name="Changes" comment="the file &quot;manual.txt&quot; has been changed">
+    <list default="true" id="b21afa6e-a0fa-4f42-af34-c0c8cbe5e1bf" name="Changes" comment="there is writing to a file and reading a dictionary from 1 note">
+      <change afterPath="$PROJECT_DIR$/operation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note.py" beforeDir="false" afterPath="$PROJECT_DIR$/Note.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands.py" afterDir="false" />
@@ -48,6 +49,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/notes.json" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -60,23 +64,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.commands.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.make_file.executor": "Run",
-    "Python.make_notes.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.commands.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.make_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.make_notes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Иван\PycharmProjects\Application_Notes" />
@@ -157,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708336007099</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="there is writing to a file and reading a dictionary from 1 note">
+      <option name="closed" value="true" />
+      <created>1708368416486</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708368416486</updated>
+    </task>
+    <task id="LOCAL-00009" summary="there is writing to a file and reading a dictionary from 1 note">
+      <option name="closed" value="true" />
+      <created>1708368489368</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708368489368</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +197,7 @@
     <MESSAGE value="make commands /add, /all, /change" />
     <MESSAGE value="the file &quot;manual.md&quot; has been changed" />
     <MESSAGE value="the file &quot;manual.txt&quot; has been changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="the file &quot;manual.txt&quot; has been changed" />
+    <MESSAGE value="there is writing to a file and reading a dictionary from 1 note" />
+    <option name="LAST_COMMIT_MESSAGE" value="there is writing to a file and reading a dictionary from 1 note" />
   </component>
 </project>

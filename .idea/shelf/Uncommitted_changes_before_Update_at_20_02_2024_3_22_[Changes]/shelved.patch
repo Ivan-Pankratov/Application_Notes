@@ -1,0 +1,15 @@
+Index: notes.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"116;fdfd;dsfdfs;19.02.2024 17:35\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/notes.json b/notes.json
+--- a/notes.json	(revision e70680fe59ba8575be40110b65377622c8c147f7)
++++ b/notes.json	(date 1708388073391)
+@@ -1,1 +1,1 @@
+-"116;fdfd;dsfdfs;19.02.2024 17:35"
+\ No newline at end of file
++"ed9;kjkj;cvcxz;20.01.2024 00:49""f4b;4565;564798;20.02.2024 00:49""c5b;sds;xcxc;20.02.2024 00:49"
+\ No newline at end of file
